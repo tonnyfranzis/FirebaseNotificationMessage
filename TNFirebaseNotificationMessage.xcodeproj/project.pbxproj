@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D59669D7D732FE7444C6896 /* Pods_TNFirebaseNotificationMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19D385D3E9ACE6DEBC4DD070 /* Pods_TNFirebaseNotificationMessage.framework */; };
+		527E4FFE1E6EE3BD0034E75B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E4FFD1E6EE3BD0034E75B /* AppDelegate.swift */; };
+		527E50001E6EE3BD0034E75B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E4FFF1E6EE3BD0034E75B /* ViewController.swift */; };
+		527E50031E6EE3BD0034E75B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527E50011E6EE3BD0034E75B /* Main.storyboard */; };
+		527E50051E6EE3BD0034E75B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527E50041E6EE3BD0034E75B /* Assets.xcassets */; };
+		527E50081E6EE3BD0034E75B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527E50061E6EE3BD0034E75B /* LaunchScreen.storyboard */; };
+		527E50101E6EE4150034E75B /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 527E500F1E6EE4150034E75B /* GoogleService-Info-2.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19D385D3E9ACE6DEBC4DD070 /* Pods_TNFirebaseNotificationMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TNFirebaseNotificationMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527E4FFA1E6EE3BD0034E75B /* TNFirebaseNotificationMessage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TNFirebaseNotificationMessage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527E4FFD1E6EE3BD0034E75B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		527E4FFF1E6EE3BD0034E75B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		527E50021E6EE3BD0034E75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		527E50041E6EE3BD0034E75B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527E50071E6EE3BD0034E75B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		527E50091E6EE3BD0034E75B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527E500F1E6EE4150034E75B /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		863A7513145B19D7E3334603 /* Pods-TNFirebaseNotificationMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNFirebaseNotificationMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TNFirebaseNotificationMessage/Pods-TNFirebaseNotificationMessage.release.xcconfig"; sourceTree = "<group>"; };
+		DD3DCD39DA20B0FBF1084140 /* Pods-TNFirebaseNotificationMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TNFirebaseNotificationMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TNFirebaseNotificationMessage/Pods-TNFirebaseNotificationMessage.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527E4FF71E6EE3BD0034E75B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D59669D7D732FE7444C6896 /* Pods_TNFirebaseNotificationMessage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B290E5B6B6873347C45D104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DCD39DA20B0FBF1084140 /* Pods-TNFirebaseNotificationMessage.debug.xcconfig */,
+				863A7513145B19D7E3334603 /* Pods-TNFirebaseNotificationMessage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		527E4FF11E6EE3BD0034E75B = {
+			isa = PBXGroup;
+			children = (
+				527E4FFC1E6EE3BD0034E75B /* TNFirebaseNotificationMessage */,
+				527E4FFB1E6EE3BD0034E75B /* Products */,
+				1B290E5B6B6873347C45D104 /* Pods */,
+				859CE7425D39AE9C2682CB5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		527E4FFB1E6EE3BD0034E75B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527E4FFA1E6EE3BD0034E75B /* TNFirebaseNotificationMessage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527E4FFC1E6EE3BD0034E75B /* TNFirebaseNotificationMessage */ = {
+			isa = PBXGroup;
+			children = (
+				527E4FFD1E6EE3BD0034E75B /* AppDelegate.swift */,
+				527E4FFF1E6EE3BD0034E75B /* ViewController.swift */,
+				527E50011E6EE3BD0034E75B /* Main.storyboard */,
+				527E50041E6EE3BD0034E75B /* Assets.xcassets */,
+				527E50061E6EE3BD0034E75B /* LaunchScreen.storyboard */,
+				527E50091E6EE3BD0034E75B /* Info.plist */,
+				527E500F1E6EE4150034E75B /* GoogleService-Info-2.plist */,
+			);
+			path = TNFirebaseNotificationMessage;
+			sourceTree = "<group>";
+		};
+		859CE7425D39AE9C2682CB5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19D385D3E9ACE6DEBC4DD070 /* Pods_TNFirebaseNotificationMessage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527E4FF91E6EE3BD0034E75B /* TNFirebaseNotificationMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527E500C1E6EE3BD0034E75B /* Build configuration list for PBXNativeTarget "TNFirebaseNotificationMessage" */;
+			buildPhases = (
+				09E5D9A736CAAF94E8DC2C25 /* [CP] Check Pods Manifest.lock */,
+				527E4FF61E6EE3BD0034E75B /* Sources */,
+				527E4FF71E6EE3BD0034E75B /* Frameworks */,
+				527E4FF81E6EE3BD0034E75B /* Resources */,
+				E89F13B16473948D928F4E48 /* [CP] Embed Pods Frameworks */,
+				8C440FA38F9293EC122FCE59 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TNFirebaseNotificationMessage;
+			productName = TNFirebaseNotificationMessage;
+			productReference = 527E4FFA1E6EE3BD0034E75B /* TNFirebaseNotificationMessage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527E4FF21E6EE3BD0034E75B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = test;
+				TargetAttributes = {
+					527E4FF91E6EE3BD0034E75B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 527E4FF51E6EE3BD0034E75B /* Build configuration list for PBXProject "TNFirebaseNotificationMessage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527E4FF11E6EE3BD0034E75B;
+			productRefGroup = 527E4FFB1E6EE3BD0034E75B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527E4FF91E6EE3BD0034E75B /* TNFirebaseNotificationMessage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527E4FF81E6EE3BD0034E75B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527E50081E6EE3BD0034E75B /* LaunchScreen.storyboard in Resources */,
+				527E50051E6EE3BD0034E75B /* Assets.xcassets in Resources */,
+				527E50101E6EE4150034E75B /* GoogleService-Info-2.plist in Resources */,
+				527E50031E6EE3BD0034E75B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E5D9A736CAAF94E8DC2C25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C440FA38F9293EC122FCE59 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNFirebaseNotificationMessage/Pods-TNFirebaseNotificationMessage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E89F13B16473948D928F4E48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TNFirebaseNotificationMessage/Pods-TNFirebaseNotificationMessage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527E4FF61E6EE3BD0034E75B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527E50001E6EE3BD0034E75B /* ViewController.swift in Sources */,
+				527E4FFE1E6EE3BD0034E75B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		527E50011E6EE3BD0034E75B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527E50021E6EE3BD0034E75B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		527E50061E6EE3BD0034E75B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				527E50071E6EE3BD0034E75B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		527E500A1E6EE3BD0034E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527E500B1E6EE3BD0034E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527E500D1E6EE3BD0034E75B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3DCD39DA20B0FBF1084140 /* Pods-TNFirebaseNotificationMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNFirebaseNotificationMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TNFirebaseNotificationMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		527E500E1E6EE3BD0034E75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863A7513145B19D7E3334603 /* Pods-TNFirebaseNotificationMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TNFirebaseNotificationMessage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.TNFirebaseNotificationMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527E4FF51E6EE3BD0034E75B /* Build configuration list for PBXProject "TNFirebaseNotificationMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527E500A1E6EE3BD0034E75B /* Debug */,
+				527E500B1E6EE3BD0034E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527E500C1E6EE3BD0034E75B /* Build configuration list for PBXNativeTarget "TNFirebaseNotificationMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527E500D1E6EE3BD0034E75B /* Debug */,
+				527E500E1E6EE3BD0034E75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527E4FF21E6EE3BD0034E75B /* Project object */;
+}
